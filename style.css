@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding-inline: 20px;
+    padding-block: 10px;
+    height: 60px;
+    background-color: aliceblue;
+}
+
+.logo img{
+    height: 40px;
+}
+.menus{
+    display:flex;
+    gap: 20px ;
+}
+.icons{
+    display:flex;
+    gap: 20px ;   
+}
+.coloradjuster{
+    color: red;
+    margin-top: -4px;
+}
+.search{
+    display: flex;
+    gap:10px;
+    background-color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+    width: 400px;
+    border-radius: 15px;
+}
+.search input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    
+}
+.heroSection {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    width: 100%;
+}
